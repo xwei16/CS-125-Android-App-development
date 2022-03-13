@@ -1,0 +1,32 @@
+edu/illinois/cs/cs125/fall2020/mp/models/Course.java
+ edu.illinois.cs.cs125.fall2020.mp.models.Course
+edu/illinois/cs/cs125/fall2020/mp/DataBindingTriggerClass.java
+ edu.illinois.cs.cs125.fall2020.mp.DataBindingTriggerClass
+edu/illinois/cs/cs125/fall2020/mp/application/CourseableApplication.java
+ edu.illinois.cs.cs125.fall2020.mp.application.CourseableApplication
+edu/illinois/cs/cs125/fall2020/mp/adapters/CourseListAdapter.java
+ edu.illinois.cs.cs125.fall2020.mp.adapters.CourseListAdapter
+ edu.illinois.cs.cs125.fall2020.mp.adapters.CourseListAdapter$Listener
+edu/illinois/cs/cs125/fall2020/mp/network/Server.java
+ edu.illinois.cs.cs125.fall2020.mp.network.Server
+edu/illinois/cs/cs125/fall2020/mp/network/Client.java
+ edu.illinois.cs.cs125.fall2020.mp.network.Client
+ edu.illinois.cs.cs125.fall2020.mp.network.Client$1
+ edu.illinois.cs.cs125.fall2020.mp.network.Client$CourseClientCallbacks
+edu/illinois/cs/cs125/fall2020/mp/BuildConfig.java
+ edu.illinois.cs.cs125.fall2020.mp.BuildConfig
+edu/illinois/cs/cs125/fall2020/mp/models/Summary.java
+ edu.illinois.cs.cs125.fall2020.mp.models.Summary
+edu/illinois/cs/cs125/fall2020/mp/databinding/ItemCourseBinding.java
+ edu.illinois.cs.cs125.fall2020.mp.databinding.ItemCourseBinding
+edu/illinois/cs/cs125/fall2020/mp/adapters/viewholder/CourseViewHolder.java
+ edu.illinois.cs.cs125.fall2020.mp.adapters.viewholder.CourseViewHolder
+edu/illinois/cs/cs125/fall2020/mp/models/Rating.java
+ edu.illinois.cs.cs125.fall2020.mp.models.Rating
+edu/illinois/cs/cs125/fall2020/mp/databinding/ActivityMainBinding.java
+ edu.illinois.cs.cs125.fall2020.mp.databinding.ActivityMainBinding
+edu/illinois/cs/cs125/fall2020/mp/activities/MainActivity.java
+ edu.illinois.cs.cs125.fall2020.mp.activities.MainActivity
+edu/illinois/cs/cs125/fall2020/mp/activities/CourseActivity.java
+ edu.illinois.cs.cs125.fall2020.mp.activities.CourseActivity
+ edu.illinois.cs.cs125.fall2020.mp.activities.CourseActivity$1

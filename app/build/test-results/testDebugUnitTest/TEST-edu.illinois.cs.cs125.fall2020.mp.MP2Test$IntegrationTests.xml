@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.illinois.cs.cs125.fall2020.mp.MP2Test$IntegrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-28T13:32:54" hostname="vpnpool-10-251-127-218.near.illinois.edu" time="11.252">
+  <properties/>
+  <testcase name="testClientGetRating" classname="edu.illinois.cs.cs125.fall2020.mp.MP2Test$IntegrationTests" time="5.773"/>
+  <testcase name="testClientPostRating" classname="edu.illinois.cs.cs125.fall2020.mp.MP2Test$IntegrationTests" time="0.105"/>
+  <testcase name="testRatingView" classname="edu.illinois.cs.cs125.fall2020.mp.MP2Test$IntegrationTests" time="5.374"/>
+  <system-out><![CDATA[[Robolectric] edu.illinois.cs.cs125.fall2020.mp.MP2Test$IntegrationTests.testClientGetRating: sdk=28; resources=BINARY
+Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=28
+[Robolectric] edu.illinois.cs.cs125.fall2020.mp.MP2Test$IntegrationTests.testClientPostRating: sdk=28; resources=BINARY
+[Robolectric] edu.illinois.cs.cs125.fall2020.mp.MP2Test$IntegrationTests.testRatingView: sdk=28; resources=BINARY
+]]></system-out>
+  <system-err><![CDATA[Nov 28, 2020 7:32:58 AM okhttp3.mockwebserver.MockWebServer$start$$inlined$execute$1 run
+INFO: MockWebServer[8888] starting to accept connections
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler handle
+WARNING: MockWebServer[8888] connection from /127.0.0.1 didn't make a request
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/410?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/125?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/466?client=d1d4a80c-b536-47b3-8e3f-47052a62fcad HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/563?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/413?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/241?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/524?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/498?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/473?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/439?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/361?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/242?client=d1d4a80c-b536-47b3-8e3f-47052a62fcad HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/591?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/527?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/433?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/440?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/425?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/105?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/499?client=d1d4a80c-b536-47b3-8e3f-47052a62fcad HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/240?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/450?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/497?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/481?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/225?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/424?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/426?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/523?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/581?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/397?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/447?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/491?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/173?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/549?client=d1d4a80c-b536-47b3-8e3f-47052a62fcad HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/556?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/427?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/412?client=d1d4a80c-b536-47b3-8e3f-47052a62fcad HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/519?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/107?client=d1d4a80c-b536-47b3-8e3f-47052a62fcad HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/597?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/210?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/296?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/233?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/438?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/265?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/445?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/421?client=d1d4a80c-b536-47b3-8e3f-47052a62fcad HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/465?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/126?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/461?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/411?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/572?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/598?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/196?client=84521ea0-0499-4b4f-83ae-825743cb3f3a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/446?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/100?client=6e1739a3-6ae2-4ec4-be0a-58b8dd03218a HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/483?client=d1d4a80c-b536-47b3-8e3f-47052a62fcad HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/199?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/492?client=d1d4a80c-b536-47b3-8e3f-47052a62fcad HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/357?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/374?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/418?client=d1d4a80c-b536-47b3-8e3f-47052a62fcad HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:32:59 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/101?client=d10c51b5-c60c-48eb-99e4-21f863289206 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:00 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/410?client=a1cf1794-1481-43b3-96fc-ebca3fa08444 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:00 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/125?client=a1cf1794-1481-43b3-96fc-ebca3fa08444 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:00 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/466?client=a1cf1794-1481-43b3-96fc-ebca3fa08444 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:00 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/563?client=a1cf1794-1481-43b3-96fc-ebca3fa08444 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:00 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/413?client=a1cf1794-1481-43b3-96fc-ebca3fa08444 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:00 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/241?client=a1cf1794-1481-43b3-96fc-ebca3fa08444 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:00 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/524?client=a1cf1794-1481-43b3-96fc-ebca3fa08444 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:00 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/498?client=a1cf1794-1481-43b3-96fc-ebca3fa08444 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:02 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/410?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:03 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/410?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:03 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/125?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:03 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/125?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:03 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/466?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:03 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/466?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:03 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/563?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:03 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/563?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/410?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/410?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/410?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/125?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/125?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/125?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/466?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/466?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/466?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/563?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/563?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:04 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/563?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/410?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/410?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/410?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/125?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/125?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/125?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/466?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/466?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/466?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: GET /rating/2020/fall/CS/563?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/563?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 28, 2020 7:33:05 AM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8888] received request: POST /rating/2020/fall/CS/563?client=0f3b01ba-275e-4fc4-8bf5-54af22064fee HTTP/1.1 and responded: HTTP/1.1 200 OK
+]]></system-err>
+</testsuite>
