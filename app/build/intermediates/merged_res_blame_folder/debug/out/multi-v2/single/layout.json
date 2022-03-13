@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_course.xml",
+        "source": "/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/res/layout/item_course.xml"
+    }
+]
