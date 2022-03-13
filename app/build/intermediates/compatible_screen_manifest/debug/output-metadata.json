@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "edu.illinois.cs.cs125.fall2020.courseable",
+  "variantName": "debug",
+  "elements": []
+}
