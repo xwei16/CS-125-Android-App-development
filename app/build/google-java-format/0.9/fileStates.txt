@@ -1,0 +1,14 @@
+src/main/java/edu/illinois/cs/cs125/fall2020/mp/models/Summary.java,1606486553000000000,4623,FORMATTED
+src/main/java/edu/illinois/cs/cs125/fall2020/mp/network/Server.java,1606140274000000000,12931,INVALID
+src/main/java/edu/illinois/cs/cs125/fall2020/mp/activities/MainActivity.java,1606552167000000000,8594,FORMATTED
+src/test/java/edu/illinois/cs/cs125/fall2020/mp/MP0Test.java,1603468968000000000,10555,FORMATTED
+src/test/java/edu/illinois/cs/cs125/fall2020/mp/RecyclerViewMatcher.java,1603503677000000000,2368,FORMATTED
+src/main/java/edu/illinois/cs/cs125/fall2020/mp/activities/CourseActivity.java,1606559579000000000,5344,FORMATTED
+src/main/java/edu/illinois/cs/cs125/fall2020/mp/application/CourseableApplication.java,1606546468000000000,1328,FORMATTED
+src/main/java/edu/illinois/cs/cs125/fall2020/mp/adapters/CourseListAdapter.java,1603172243000000000,1549,FORMATTED
+src/test/java/edu/illinois/cs/cs125/fall2020/mp/MP1Test.java,1604663797000000000,12848,FORMATTED
+src/main/java/edu/illinois/cs/cs125/fall2020/mp/adapters/viewholder/CourseViewHolder.java,1603172243000000000,1091,FORMATTED
+src/main/java/edu/illinois/cs/cs125/fall2020/mp/models/Course.java,1606555944000000000,553,FORMATTED
+src/main/java/edu/illinois/cs/cs125/fall2020/mp/models/Rating.java,1606560091000000000,1104,FORMATTED
+src/main/java/edu/illinois/cs/cs125/fall2020/mp/network/Client.java,1606562128000000000,12148,INVALID
+src/test/java/edu/illinois/cs/cs125/fall2020/mp/MP2Test.java,1606551139000000000,23482,FORMATTED
