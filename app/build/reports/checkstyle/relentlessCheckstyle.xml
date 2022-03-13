@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.36.2">
+<file name="/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/java/edu/illinois/cs/cs125/fall2020/mp/activities/CourseActivity.java">
+</file>
+<file name="/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/java/edu/illinois/cs/cs125/fall2020/mp/activities/MainActivity.java">
+</file>
+<file name="/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/java/edu/illinois/cs/cs125/fall2020/mp/adapters/CourseListAdapter.java">
+</file>
+<file name="/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/java/edu/illinois/cs/cs125/fall2020/mp/adapters/viewholder/CourseViewHolder.java">
+</file>
+<file name="/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/java/edu/illinois/cs/cs125/fall2020/mp/application/CourseableApplication.java">
+</file>
+<file name="/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/java/edu/illinois/cs/cs125/fall2020/mp/models/Course.java">
+</file>
+<file name="/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/java/edu/illinois/cs/cs125/fall2020/mp/models/Rating.java">
+</file>
+<file name="/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/java/edu/illinois/cs/cs125/fall2020/mp/models/Summary.java">
+</file>
+<file name="/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/java/edu/illinois/cs/cs125/fall2020/mp/network/Client.java">
+</file>
+<file name="/Users/oliviawei/StudioProjects/MP-Fall2020-xwei16/app/src/main/java/edu/illinois/cs/cs125/fall2020/mp/network/Server.java">
+</file>
+</checkstyle>
